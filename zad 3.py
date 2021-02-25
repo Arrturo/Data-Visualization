@@ -1,26 +1,20 @@
-a = int(input())
-c = input()
-b = int(input())
+a = 3
+b = 2
 
-if c == 'c':
-    a += b
-    print(str(a))
+a += b
+print(a)
 
-elif c == '-':
-    a -= b
-    print(str(a))
+a -= b
+print(a)
 
-elif c == '*':
-    a *= b
-    print(str(a))
+a *= b
+print(a)
 
-elif c == '%':
-    a %= b
-    print(str(a))
+a /= b
+print(a)
 
-elif c == '**':
-    a **= b
-    print(str(a))
+a %= b
+print(a)
 
-else:
-    print("Podałeś złą operację!")
+a **= b
+print(a)
