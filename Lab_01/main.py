@@ -1,1 +1,0 @@
-print("Wynik działania jest równy a=%")
