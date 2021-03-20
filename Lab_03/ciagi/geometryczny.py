@@ -5,5 +5,7 @@ def nty_wyraz_g(a, q, n):
 def sum_g(a, n, q):
     if(q != 1):
         sn = a * (1 - pow(q,n))/(1-q)
+        return sn
     elif(q == 1):
         sn = a * n
+        return sn
