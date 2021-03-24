@@ -7,4 +7,4 @@ a = [n for n,i in zakupy.items() if i == 'sztuki']
 print(a)
 
 # 2 sposob
-# prodSzt = [produkt for produkt in produkty.keys() if produkty[produkt] == "szt"]
+# prodSzt = [produkt for produkt in produkty.keys() if produkty[produkt] == "sztuki"]
