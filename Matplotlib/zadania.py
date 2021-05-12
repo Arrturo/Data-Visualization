@@ -25,17 +25,17 @@ import matplotlib.pyplot as plt
 # plt.show()
 
 # #3
-# x = np.arange(0, 30, 0.1)
-# sin = np.sin(x)
-# cos = np.cos(x)
+x = np.arange(0, 30, 0.1)
+sin = np.sin(x)
+cos = np.cos(x)
 
-# plt.plot(sin, 'b', label='sin(x)')
-# plt.plot(cos, 'r', label='cos(x)')
-# plt.legend()
-# plt.xlabel('x')
-# plt.ylabel('sin(x)/cos(x)')
-# plt.title('Wykres sin(x) i cos(x) w przedziale [0,30]')
-# plt.show()
+plt.plot(sin, 'b', label='sin(x)')
+plt.plot(cos, 'r', label='cos(x)')
+plt.legend()
+plt.xlabel('x')
+plt.ylabel('sin(x)/cos(x)')
+plt.title('Wykres sin(x) i cos(x) w przedziale [0,30]')
+plt.show()
 
 # #4
 # x = np.arange(0, 30, 0.1)
